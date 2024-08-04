@@ -137,6 +137,8 @@ p {
 
 input {
   background-color: yellowgreen;
+  text-emphasis-color: black;
+  text-decoration-color: black;
   width: 70%;
   margin-left: 12%;
   font-size: 20px;
@@ -148,6 +150,8 @@ input {
 
 textarea {
   background-color: yellow;
+  text-emphasis-color: black;
+  text-decoration-color: black;
   width: 70%;
   margin-left: 12%;
   font-size: 20px;
