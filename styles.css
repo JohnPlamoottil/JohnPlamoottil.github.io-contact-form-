@@ -1,5 +1,5 @@
 * {
-  background-color: black;
+  background-color: rgb(94, 87, 217);
 }
 
 .header {
@@ -13,13 +13,14 @@
   width: 325px;
   height: 134px;
   justify-content: center;
-  margin: 0 auto 0 0;
+  margin: 0 auto;
+  display: block;
 }
 
 @media screen and (max-width: 620px) {
   .header {
     margin: 0 auto;
-    padding: 28px 0 32px;
+    justify-content: center;
   }
 
   .header__logo {
@@ -72,7 +73,7 @@
 }
 
 h1 {
-  color: white;
+  color: black;
   padding-top: 1px;
   text-align: center;
   font-size: 60px;
@@ -81,7 +82,7 @@ h1 {
 }
 
 h2 {
-  color: white;
+  color: rgb(4, 6, 3);
   padding-top: 0px;
   text-align: center;
   font-size: 99px;
@@ -90,7 +91,7 @@ h2 {
 }
 
 h3 {
-  color: white;
+  color: black;
   padding-top: 10px;
   text-align: center;
   font-size: 25px;
@@ -99,7 +100,7 @@ h3 {
 }
 
 h4 {
-  color: white;
+  color: black;
   padding-top: 10px;
   text-align: center;
   font-size: 25px;
@@ -108,7 +109,7 @@ h4 {
 }
 
 h5 {
-  color: white;
+  color: black;
   padding-top: 10px;
   text-align: center;
   font-size: 25px;
@@ -117,15 +118,46 @@ h5 {
 }
 
 h6 {
-  color: white;
+  color: black;
   padding-top: 10px;
   text-align: center;
   font-size: 25px;
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
     Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
+
+h7 {
+  color: black;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: center;
+  font-size: 25px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+h8 {
+  color: black;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: center;
+  font-size: 25px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+h9 {
+  color: black;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: center;
+  font-size: 25px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
 input {
-  background-color: white;
+  background-color: yellowgreen;
   width: 70%;
   margin-left: 12%;
   font-size: 20px;
@@ -136,7 +168,7 @@ input {
 }
 
 textarea {
-  background-color: white;
+  background-color: yellowgreen;
   width: 70%;
   margin-left: 12%;
   font-size: 20px;
@@ -177,10 +209,26 @@ button:hover {
 }
 
 footer {
-  color: white;
+  color: black;
   padding-top: 10px;
   text-align: center;
   font-size: 25px;
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
     Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+@media screen and (max-width: 414px) {
+  .footer {
+    margin: 0 auto;
+    padding: 28px 0 32px;
+    size: 50px;
+  }
+  .footer__logo {
+    margin: 0 auto;
+    padding: 28px 0 32px;
+    size: 50px;
+  }
+  .chicago-realtors-logo {
+    width: 100%;
+  }
 }
