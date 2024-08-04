@@ -5,55 +5,113 @@
     <meta http-equiv="X-UA-Compatible" contents="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Contact Form</title>
+    <link rel="shortcut icon" href="favicon.ico" />
     <link rel="stylesheet" href="./styles.css" />
   </head>
   <body>
-    <form action="https://formspree.io/f/xzzprjvo" method="POST">
-      <h1>Contact Form</h1>
-      <input
-        type="text"
-        name="first"
-        placeholder="Last Name"
-        autocomplete="off"
-        required
-      />
-      <input
-        type="text"
-        name="last"
-        placeholder="First Name"
-        autocomplete="off"
-        required
-      />
-      <input
-        type="text"
-        name="middle"
-        placeholder="Middle Initial"
-        autocomplete="off"
-        required
-      />
-      <input
-        type="phone number"
-        name="mobile"
-        placeholder="phone # including area code"
-        autocomplete="off"
-        required
-      />
-      <input
-        type="email"
-        name="email"
-        placeholder="email address"
-        autocomplete="off"
-        required
-      />
-      <textarea
-        rows="5"
-        cols="60"
-        name="message"
-        placeholder="Brief Message"
-        autocomplete="off"
-        required
-      ></textarea>
-      <button type="submit">Send Message</button>
-    </form>
+    <div class="page__content">
+      <header class="header page__section">
+        <img
+          class="header__logo"
+          src="./images/brickstone logo.png"
+          alt="Contact Us"
+        />
+        <h2>GET IN TOUCH TODAY</h2>
+        <h6>
+          <p2
+            >Kanna John Plamoottil (JJ) Real Estate Broker & Property
+            Specialist</p2
+          >
+
+          <p3>(847)665-9017 AND (847)-338-6855</p3>
+        </h7>
+        
+      </header>
+      <main class="content">
+        <section class="profile page__section">
+          <img
+            src="./images/right front shot.png"
+            alt="Avator"
+            class="profile__image"
+          />
+        </section>
+      </main>
+      <form action="https://formspree.io/f/xzzprjvo" method="POST">
+        <h1>Contact Form</h1>
+        <h3>
+          <p1>
+            Ready to take the next step in your real estate journey? Contact us
+            today, and let’s make your real estate goals a reality.
+          </p1>
+        </h3>
+
+        <h4>
+          <p1>Office Phone (312)999-0217 and </p1>
+
+          <p2>Office Email: sales@brickstonebrokerage.com</p2>
+        </h4>
+
+        <h5>
+          <p1>Address: 1699 Wall St, Suite 118A, Mount Prospect, IL 60056</p1>
+        </h5>
+
+        <input
+          type="text"
+          name="first"
+          placeholder="Last Name"
+          autocomplete="off"
+          required
+        />
+        <input
+          type="text"
+          name="last"
+          placeholder="First Name"
+          autocomplete="off"
+          required
+        />
+        <input
+          type="text"
+          name="middle"
+          placeholder="Middle Initial"
+          autocomplete="off"
+          required
+        />
+        <input
+          type="phone number"
+          name="mobile"
+          placeholder="phone # including area code"
+          autocomplete="off"
+          required
+        />
+        <input
+          type="email"
+          name="email"
+          placeholder="email address"
+          autocomplete="off"
+          required
+        />
+        <textarea
+          rows="5"
+          cols="60"
+          name="message"
+          placeholder="Brief Message (Illinois County, Price Range, Buyer or Seller)"
+          autocomplete="off"
+          required
+        ></textarea>
+        <button type="submit">Send Message</button>
+      </form>
+      <form action="https://brickstonebrokerage.com/#" method="POST">
+        <button type="Link">Company Homepage</button>
+      </form>
+
+      <footer class="footer">
+        <p class="footer__copyright">Kanna John Plamoottil ©Aug2024 All Rights Reserved</p>
+        <img
+        class="Chicago Realtors logo"
+        src="./images/credentials logo.png"
+        alt="Avator"
+        />      
+      </footer>
+    </div>
   </body>
 </html>
