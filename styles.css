@@ -1,6 +1,9 @@
 * {
   background-color: rgba(43, 40, 40, 0.357);
+  margin: 0 auto;
+  display: block;
 }
+
 .header {
   width: 100%;
   /* border-bottom: solid 1px rgba(185, 229, 10, 0.975); */
@@ -13,7 +16,7 @@
   height: 134px;
   justify-content: center;
   margin: 0 auto;
-  display: block;
+  /* display: block; */
 }
 
 @media screen and (max-width: 620px) {
