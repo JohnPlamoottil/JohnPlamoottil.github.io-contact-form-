@@ -1,7 +1,6 @@
 * {
-  background-color: rgb(94, 87, 217);
+  background-color: rgba(43, 40, 40, 0.357);
 }
-
 .header {
   width: 100%;
   /* border-bottom: solid 1px rgba(185, 229, 10, 0.975); */
@@ -73,7 +72,7 @@
 }
 
 h1 {
-  color: black;
+  color: rgb(255, 0, 0);
   padding-top: 1px;
   text-align: center;
   font-size: 60px;
@@ -82,7 +81,7 @@ h1 {
 }
 
 h2 {
-  color: rgb(4, 6, 3);
+  color: rgb(255, 221, 0);
   padding-top: 0px;
   text-align: center;
   font-size: 99px;
@@ -91,7 +90,7 @@ h2 {
 }
 
 h3 {
-  color: black;
+  color: rgb(255, 226, 6);
   padding-top: 10px;
   text-align: center;
   font-size: 25px;
@@ -100,7 +99,7 @@ h3 {
 }
 
 h4 {
-  color: black;
+  color: rgb(253, 253, 253);
   padding-top: 10px;
   text-align: center;
   font-size: 25px;
@@ -109,7 +108,7 @@ h4 {
 }
 
 h5 {
-  color: black;
+  color: rgb(255, 255, 255);
   padding-top: 10px;
   text-align: center;
   font-size: 25px;
@@ -118,7 +117,7 @@ h5 {
 }
 
 h6 {
-  color: black;
+  color: rgb(255, 255, 255);
   padding-top: 10px;
   text-align: center;
   font-size: 25px;
@@ -127,7 +126,7 @@ h6 {
 }
 
 p {
-  color: black;
+  color: rgb(251, 251, 251);
   padding-top: 10px;
   text-align: center;
   font-size: 25px;
@@ -136,7 +135,7 @@ p {
 }
 
 input {
-  background-color: yellowgreen;
+  background-color: rgb(255, 255, 255);
   text-emphasis-color: black;
   text-decoration-color: black;
   width: 70%;
@@ -149,7 +148,7 @@ input {
 }
 
 textarea {
-  background-color: yellow;
+  background-color: rgb(237, 237, 237);
   text-emphasis-color: black;
   text-decoration-color: black;
   width: 70%;
